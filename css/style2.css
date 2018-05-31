@@ -1,0 +1,40 @@
+@media screen and (max-width:1199px){
+    header{
+        padding:5px;
+    }
+    .menu ul li{
+        display:block;
+        padding:10px;
+    }
+    .recipes{
+        width:100%;
+    }
+    article{
+        width:100%;
+        height:auto;
+        display:block;
+    }
+    aside{
+        width:100%;
+    }
+   .image_dish{
+      
+        height:auto;
+    }
+    .gallery{
+    margin:20px;
+    text-align: center;
+    }
+    .gallery img{
+        width:50%;
+        height:auto;
+    }
+    
+    
+#formularz label{
+        display:block;
+    }
+    #name, #email,textarea{
+        width:auto;
+    }
+}

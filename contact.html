@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kontakt</title>
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    </head>
+<body>
+    <header>
+        <div class="search">  
+            <form>
+                <input type="text" placeholder="Szukaj..." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <h1 class="title">Przepisy Kulinarne Tereski</h1>
+            <nav class="menu">
+                <ul>
+                    <li> <a href="index.html">Strona główna</a></li>
+                    <li><a href="gallery.html">Galeria</a></li>
+                    <li><a href="information.html">O mnie</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h2 class="title_main"><span> Kontakt </span></h2>
+                </br>
+                <p class="contact_content">Jeżeli macie ochotę się ze mną skontaktować możecie wysłać maila na adres:<strong> przepisy_tereski@gmail.com </strong> albo skorzystajcie z formularza kontaktowego zamieszcznego poniżej. Z wielką przyjemnością odpowiem na wasze pytania, przeczytam wasze przemyślenia i sugestie dotyczące strony i treści na niej zawartych. Bardzo zachęcam do kontaktu!</p>
+                <section>
+                    <form id="formularz" method="post" action="">
+                        <div>
+                            <label for="name">*Nazwa:</label>
+                            <input type="text" id="name" name="name"></input>
+                            <span class="komunikat"></span>
+                        </div>
+                        <div>
+                            <label for="email">*Email:</label>
+                            <input type="email" id="email" name="email"></input>
+                            <span class="komunikat"></span>          
+                        </div> 
+                        <div>
+                            <label for="message">*Wiadomość:</label>
+                            <textarea id="message" name="message"></textarea>
+                            <span class="komunikat"></span>                                               
+                        </div> 
+                        <div>                      
+                            <label for="accept">*Zgoda na przetwarzanie danych osobowych:</label>
+                            <input type="checkbox" id="accept" name="accept"/>Wyrażam zgodę na przetwarzanie moich danych osobowych.
+                            <span class="komunikat"></span> 
+                        </div> 
+                        <div>
+                            <label for="gender">*Wybierz swoją płeć:</label>
+                            <input type="radio" class="gender" name="gender" value="kobieta" checked="checked"/>Kobieta
+                            <input type="radio" class="gender" name="gender" value="mężczyzna" />Mężczyzna
+                            <span class="komunikat"></span>
+                        </div>                  
+                        <div id="submit">             
+                            <button id="send" type="submit">Wyślij</button>
+                        </div>
+                    </form>        
+                <section>   
+        </section>
+    </main>
+    <footer>
+        <p>© 2018 Przepisy Kulinarne Tereski. All Rights Reserved. Created by Martyna. Kopiowanie i rozpowszechnianie bez zgody autora zabronione.</p>
+    </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/form.js"></script> 
+</body>
+</html>
